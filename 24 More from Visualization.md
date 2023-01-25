@@ -1,4 +1,4 @@
-# 24  More Forms of 
+# 24  More Forms of Visualization
 
 24.1 Make a plot with lines joining the squares, the cubes and the 4th powers of   integers up to 10
 
@@ -40,5 +40,7 @@ Note:
 
 
 ```Wolfram Language
-ListPlot3D[GeoElevationData[GeoDisk[]]]
+ListPlot3D[
+ GeoElevationData[
+  GeoDisk[Entity["Mountain", "FujiSan"], Quantity[100, "Miles"]]]]
 ```
