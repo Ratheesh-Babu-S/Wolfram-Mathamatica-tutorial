@@ -1,5 +1,5 @@
 ```Wolfram Language
-Table[n,{n,10}]
+Table[b,{b,10}]
 ```
 
 
