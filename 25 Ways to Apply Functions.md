@@ -1,3 +1,5 @@
+# 25. Ways to Apply Functions
+
 25.1. Use /@ and Range to reproduce the result of Table[f[n],{n,5}]
 
 
