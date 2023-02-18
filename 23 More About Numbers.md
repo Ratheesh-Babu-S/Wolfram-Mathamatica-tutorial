@@ -98,7 +98,7 @@ ListPlot[Table[N[Prime[n]/(n*Log[n])], {n, 2, 1000}]]
 
 Note:
 
-23.1 Make a line plot of the differences between successive primes up to 100
+23.11 Make a line plot of the differences between successive primes up to 100
 
 
 ```Wolfram Language
@@ -122,20 +122,22 @@ ArrayPlot[
 
 Note:
 
-23.15 Make a list for n from 2 to 10 of array plots for x and y up to 50 x^y mod n.
+23.14 Make a list for n from 2 to 10 of array plots for x and y up to 50 x^y mod n.
 
 
 ```Wolfram Language
-
+Table[ArrayPlot[
+ Table[
+  Mod[x^y,n], {x, 50}, {y, 50}]],{n,2,10}]
 ```
 
 Note:
 
-23.16 Use Round to compute the fractional part of pi to 50 digits
+23.15 Use Round to compute the fractional part of pi to 50 digits
 
 
 ```Wolfram Language
-
+N[FractionalPart[Pi], 10^-50]
 ```
 
 Note:
