@@ -126,7 +126,9 @@ Note:
 
 
 ```Wolfram Language
-
+Table[ArrayPlot[
+ Table[
+  Mod[x^y,n], {x, 50}, {y, 50}]],{n,2,10}]
 ```
 
 Note:
@@ -135,7 +137,7 @@ Note:
 
 
 ```Wolfram Language
-Round[FractionalPart[Pi], 10^-50]
+N[FractionalPart[Pi], 10^-50]
 ```
 
 Note:
