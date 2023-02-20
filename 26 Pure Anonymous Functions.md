@@ -50,7 +50,7 @@ Note:
 
 
 ```Wolfram Language
-
+WordCloud[WikipediaData[#]] & /@ {"Apple", "Peach", "Pear"}
 ```
 
 Note:
