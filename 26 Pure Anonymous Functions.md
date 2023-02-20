@@ -41,7 +41,7 @@ Note:
 
 
 ```Wolfram Language
-
+Grid[{#, EntityValue[#, "Flag"]} & /@ CountryData["G5"], Frame -> All]
 ```
 
 Note:
