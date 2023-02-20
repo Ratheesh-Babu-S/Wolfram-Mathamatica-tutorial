@@ -59,7 +59,7 @@ Note:
 
 
 ```Wolfram Language
-
+Histogram[StringLength[TextWords[WikipediaData[#]]]] & /@ {"Apple", "Peach", "Pear"}
 ```
 
 Note:
