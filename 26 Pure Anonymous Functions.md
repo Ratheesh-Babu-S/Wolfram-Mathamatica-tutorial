@@ -77,7 +77,7 @@ Note:
 
 
 ```Wolfram Language
-
+Table[n^2 + 1, {n, 10}]
 ```
 
 Note:
