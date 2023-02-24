@@ -95,7 +95,15 @@ Note:
 
 
 ```Wolfram Language
-
+Table[
+    Histogram[
+        Table[
+            Total[
+                RandomReal[100, n] (* generate n random numbers in the interval [0, 100] *)
+           ] (* sum these n numbers *)
+        , 10000] (* do this 10000 times *)
+    ] (* make a historgram of these 10000 summed values *)
+, {n, 1, 5}] (* generate histograms with n in {1, 2, 3, 4, 5} *)
 ```
 
 
